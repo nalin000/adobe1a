@@ -65,7 +65,7 @@ def is_likely_label(text):
         return True
     return False
 
-def final_filter_outline(items):
+def final_filter_outline(items):#heading
     outline = []
     for it in items:
         if it["level"] not in ("H1", "H2", "H3", "H4"):
